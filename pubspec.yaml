@@ -1,5 +1,5 @@
-name: ringdoorbell_app
-description: A new Flutter application.
+name: Locksmith
+description: A smart locking and home security equipment
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -15,6 +15,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  video_player: ^0.7.2
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
