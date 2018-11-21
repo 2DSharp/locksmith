@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'Doorlock.dart';
 import 'SettingScreen.dart';
 import 'LiveStream.dart';
+import 'Caller.dart';
+import 'trial2.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 class Home extends StatelessWidget {
   // This widget is the root of your application.
@@ -75,6 +78,8 @@ class Home extends StatelessWidget {
     }
 
     void pressBtn(Widget widget) {
+      
+
       Navigator.push(context,
           MaterialPageRoute(builder: (context) => widget));
     }
@@ -82,7 +87,7 @@ class Home extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          buildRaisedButton(Icons.videocam, LiveStream.label , () => pressBtn(LiveStream())),
+          buildRaisedButton(Icons.videocam, 'Do stuff bro' , () => pressBtn(CallSample())),
           buildRaisedButton(Icons.lock_open, Doorlock.label, () => pressBtn(Doorlock())),
           buildRaisedButton(Icons.settings, SettingScreen.label, () => pressBtn(SettingScreen())),
         ],
@@ -106,5 +111,11 @@ class Home extends StatelessWidget {
         ),
       ),
     );
+  }
+  
+  void setUpFirebase()
+  {
+    FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+    
   }
 }

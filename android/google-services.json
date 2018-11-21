@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "516453007646",
+    "firebase_url": "https://locksmith-11c3d.firebaseio.com",
+    "project_id": "locksmith-11c3d",
+    "storage_bucket": "locksmith-11c3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516453007646:android:1de76cdcaaf1929b",
+        "android_client_info": {
+          "package_name": "com.example.locksmith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516453007646-c081ueg05s4mhjkuq9kp3u4nr56dgoqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfTDmZd5D5nQcOpvQm4C3FwoUkWJmfO-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
