@@ -59,12 +59,10 @@ class Doorlock extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(label),
-      ),
+        title: Text(label)),
       body: Center(
         child:
           buttonSection,
-
       ),
     );
   }
