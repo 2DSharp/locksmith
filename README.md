@@ -27,6 +27,7 @@ Thanks to Flutter's Hot Reloading features, integrating and testing builds witho
 ## Maintainers
 - [Dedipyaman Das](https://github.com/2dsharp)
 - [Akhil Surendran](https://github.com/akhillllldev)
+- [Agnibha Chatterjee](https://github.com/agnibha-chatterjee)
 - Krishanu Shekhar
 
 ## Contributing
